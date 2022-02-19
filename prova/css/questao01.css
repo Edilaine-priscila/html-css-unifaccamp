@@ -1,0 +1,42 @@
+#divFoto{
+	border:2px solid black;
+	border-radius: 15px;
+    box-shadow: 3px 3px 16px 0px black; 	
+	padding: 10px;
+}
+
+#foto{
+	width: 150px;
+	display: block;
+	margin: auto;
+	}
+	
+	h1{
+		text-align:center;
+	font-family:lucida Handwriting, Brush Script MT, Cursive;
+    font-size: 30px;
+	}
+	
+	a:link{font-weight:bold;
+	text-decoration: none;
+	font-family: Georgia, Times, serif;
+    color:black;
+	margin-right: 20px;
+	font-size: 20px;
+	}
+		
+	a:hover{
+	box-shadow: 0px 0px 20px 6px GrayText;	
+	text-decoration: none;
+	background-color: transparent;
+	}
+	
+	#divlinks{ 
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	}
+	
+	p {font-family:Arial, Verdana, sans-serif;
+		font-size: 15px;
+	}

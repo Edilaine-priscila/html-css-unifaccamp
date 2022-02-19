@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+     <head>
+          <title> Cadastro Livraria </title>
+          <meta charset="UTF-8">
+     </head>
+      <body>
+	       <form action="Livraria.php" method="get">
+		   <h1> Livraria Livro Bom </h1>
+		   <fieldset>
+		        <legend> Interface de cadastro de Livro </legend>
+				<label for="titulo"> *Titulo:  </label><br>
+				<input id="titulo"  type="text" name="titulo" required="required"/>  <br>
+				<label for="autores"> *Autores:</label> <br>
+				<input id="autores" type="text" name="autores" required="required"/> <br>
+				<label for="editora"> *Editora:</label> <br>
+				<input id="editora" type="text" name="editora" required="required"/> <br>
+				<label for="preço"> *Preço:</label> <br>
+				<input id="preço" type="text" name="preço" required="required"/> <br>
+				<label for="qtdisp"> *Quantidade Disponível:</label> <br>
+				<input id="qtdisp" type="text" name="qtdisp" required="required"/> <br>
+				<label for="publ"> *Data de Publicação: </label> <br>
+				<input id="publ" type="date" name="dtpubl" required="required"/>  <br>
+				<label for="isbn"> *ISBN: </label> <br>
+				<input id="isbn" type="text" name="isbn" required="required"/> <br>
+				<label for="Categoria"> *Categoria:</label> <br>
+		        <select id="Categoria" name="Categoria">   
+		        <option value= "AV"> Aventura </option>
+				<option value= "TR"> Terror </option>
+				<option value= "SP"> Suspense </option>
+				<option value= "RM"> Romance </option>
+				</select>
+                 <br>
+				 
+				  <label for="nmpg"> Número de Páginas: </label><br>
+				<input id="nmpg"  type="text" name="nmpg" />  <br>
+				 <label for="upload">Upload Capa:</label> <br>
+				 <input id= "upload" type="file" name="upload" /> <br>
+				 </fieldset>
+				 <br>
+				 <input type="submit" name="cadastrar" value="Cadastrar"/>
+				 </form>
+		</body>
+</html>

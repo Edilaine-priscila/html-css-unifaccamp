@@ -1,0 +1,76 @@
+table{
+	border:1px solid black;
+	font-family:Georgia,Times,serif;
+	width: 500px;
+	table-layout: fixed;
+}
+td,th{border:2px solid rgb(149,92,62);
+}
+
+
+.Cores{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.vermelho{
+	background-color:rgb(255,0,0);
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	}
+
+.verde{
+	background-color:rgb(0,255,0);
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	}
+	
+.azul{
+	background-color:rgb(0,0,255);
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	}
+
+.vermelho1{
+	background-color:rgb(255,0,0);
+	color:rgb(255,0,0);
+	}
+	
+.amarelo {
+	background-color:rgb(255,255,0);
+	color:rgb(255,255,0);
+}
+
+.magenta{
+	background-color:rgb(210,23,232);
+	color:rgb(210,23,232);
+	
+	
+}
+
+.ciano {
+	background-color:rgb(0,255,255);
+	color:rgb(0,255,255);
+}
+
+.azul1 { 
+	background-color:rgb(0,0,255);
+	color:rgb(0,0,255);
+}
+	
+.verde1 {
+	background-color:rgb(0,255,0);
+	color: rgb(0,255,0);
+}
+	
+td:hover{
+	color:rgb(255,255,255);
+	font-weight:bold;
+	font-size:10px;
+	text-decoration:underline;	
+	text-align:center;
+}

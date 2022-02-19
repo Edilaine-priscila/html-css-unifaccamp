@@ -1,0 +1,36 @@
+#divFoto{
+	text-align: center;
+}
+
+#foto{
+	border:2px solid blue;
+	border-radius: 65px 0px 65px 0px;
+    box-shadow: 3px 3px 16px 0px blue; 	
+	width: 350px;
+}
+
+#menu{
+	border-radius: 5px;
+	background-color: RGB(0,0,128);
+	text-align-last: justify;
+	padding: 5px 80px;
+}
+
+a{
+	color: white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover{
+	box-shadow: 0px 0px 20px 6px #993399;	
+}
+
+#texto{
+	text-align:justify;
+	border-top: 3px solid RGB(230,187,89);
+	border-bottom: 3px solid RGB(230,187,89);
+	padding: 15px 0px 15px 0px;
+	margin: 30px auto auto auto;
+    width: 90%; 
+}

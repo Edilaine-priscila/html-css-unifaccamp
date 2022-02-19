@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+     <head>
+          <title> PBL 540 </title>
+          <meta charset="UTF-8">
+     </head>
+      <body>
+	       <form action="PBL540.php" method="get">
+		   <fieldset>
+		        <legend> Dados pessoais </legend>
+		        <label for="nome"> Nome:  </label> <br>
+		        <input id="nome"  type="text" name="nome" required="required"/>  <br>
+		        <label for="endereço"> Endereço:</label> <br>
+		        <input id="endereço" type="text" name="endereço" required="required"/> <br>
+                <label for="cidade"> Cidade: </label> <br>
+		        <input id="cidade" type="text" name="cidade" required="required"/>  <br>
+                <label for="Estado"> Estado:</label> <br>
+		        <select id="Estado" name="Estado">   
+		         <option value= "AC"> Acre </option>
+		         <option value= "AL"> Alagoas </option>
+		         <option value= "AP"> Amapá</option>
+		         <option value= "AM"> Amazonas</option>
+		         <option value= "BA"> Bahia</option>
+		         <option value= "CE"> Ceará </option>
+		         <option value= "DF"> Distrito Federal </option>
+		         <option value= "ES"> Espirito Santo</option>
+		         <option value= "GO"> Goiás </option>
+			     <option value= "MA"> Maranhão </option>
+		         <option value= "MT"> Mato Grosso </option>
+		         <option value= "MS"> Mato Grosso do Sul</option>
+	             <option value= "MG"> Minas Gerais</option>
+	             <option value= "PA"> Pará</option>
+	             <option value= "PB"> Paraíba </option>
+	             <option value= "PR"> Paraná </option>
+	             <option value= "PE"> Pernambuco </option>
+	             <option value= "PI"> Piauí </option>
+	             <option value= "RJ"> Rio de Janeiro </option>
+	             <option value= "RN"> Rio grande do Norte </option>
+	             <option value= "RS"> Rio Grande do Sul </option>
+	             <option value= "RO"> Rondônia </option>			
+                 <option value= "SC"> Santa Catarina </option>
+                 <option value= "SP"> São Paulo </option>
+                 <option value= "SE"> Sergipe </option>
+                 <option value= "TO"> Tocantins </option> 
+                </select>
+                 <br>
+                <label for="nasc"> Data de Nascimento: </label> <br>
+			    <input id="nasc" type="date" name="dtnasc" required="required"/>  <br>
+			    <label for="email"> Email: </label> <br>
+		        <input id="email" type="email" name="email" required="required"/>  <br>
+           </fieldset>
+		        <fieldset>
+		            <legend> Dados profissionais </legend>
+		            <label for="empresa"> Empresa:  </label> <br>
+		            <input id="empresa" type="text" name="empresa" required="required"/>  <br>
+		            <label for="datadeadmissão"> Data de Admissão: </label> <br> 
+		            <input id="datadeadmissão" type="date" name="admissão" required="required"/> <br>
+		        </fieldset>
+		            <p> <label for="Curriculo">Anexar Curriculo:</label> <br>
+		            <input id= "Curriculo" type="file" name="curriculo" required="required"/> <br>
+		            <br>
+		           <input type="submit" name="cadastrar" value="Cadastrar"/>
+		   </form>
+		</body>
+</html>

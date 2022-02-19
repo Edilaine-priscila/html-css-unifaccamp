@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+     <head>
+          <title> Formulário com senha </title>
+          <meta charset="UTF-8">
+     </head>
+      <body>
+	       <form action="formularioareatexto.php" method="get">
+		   <p> Usuário: 
+		   <input type="text" name="seunome" size="15" maxlength="30"/>
+		   </p>
+		   <p> Selecione seu ritmo favorito: <br>
+		    <input type="radio" name="genero" value="rock" checked="checked" /> Rock
+			<br>
+			   <input type="radio" name="genero" value="MPB" /> MPB
+			   <br>
+			   <input type="radio" name="genero" value="pagode"  /> pagode
+			   <br>
+		   </p>
+		   <p> Selecione uma música:
+                <select name="musica">
+				<option value="1"> Música 1 </option>
+				<option value="2"> Música 2 </option>
+				<option value="3"> Música 3 </option>
+				<option value="4"> Música 4 </option>
+				<option value="5"> Música 5 </option>
+		   </select>
+		   <br> <br>
+		   <input type="submit" name="envia" value="Enviar" />
+		   </form>
+		</body>
+</html>
